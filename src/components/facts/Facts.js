@@ -16,8 +16,6 @@ const Facts = () => {
         dispatch(getFactsListAction(animeName))
     }, [animeName, dispatch])
 
-    console.log(typeof (animeName));
-
     return (
         factsObj && <div>
             <h1>Facts About {animeName}</h1>
