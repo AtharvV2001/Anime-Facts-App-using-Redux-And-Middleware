@@ -1,0 +1,12 @@
+.factblc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px 200px;
+}
+.factcard{
+    border: 1px solid cyan;
+    border-radius: 10px;
+    width: 220px;
+}

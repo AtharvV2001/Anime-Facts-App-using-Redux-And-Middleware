@@ -1,0 +1,24 @@
+.cardsBlock{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 200px;
+}
+.card{
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cardImg{
+    width: 240px;
+    height: 360px;
+}
+.cardTitle{
+    text-decoration: none !important;
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
