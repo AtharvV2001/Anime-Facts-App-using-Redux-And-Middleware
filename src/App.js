@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { hotjar } from 'react-hotjar';
 import './App.css';
